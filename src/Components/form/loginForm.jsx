@@ -14,7 +14,7 @@ import FormControl from "@mui/material/FormControl";
 
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export default function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
@@ -60,11 +60,11 @@ export default function LoginForm() {
   };
 
   const isValidEmail = (value) => {
-    return value == "aman@gmail.com";
+    return value === "aman@gmail.com";
   };
 
   const isValidPassword = (value) => {
-    return value == "123";
+    return value === "123";
   };
 
   return (

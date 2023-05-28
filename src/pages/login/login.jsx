@@ -1,7 +1,7 @@
 import "../register/register.css";
 import React from "react";
 import LoginForm from "../../Components/form/loginForm";
-import FormPropsTextFields from "../../Components/form/registerForm";
+// import FormPropsTextFields from "../../Components/form/registerForm";
 
 function Login() {
   return (
@@ -10,7 +10,7 @@ function Login() {
         <div className="left-div">
           <div className="form">
             <h1 className="form-header">Sign In</h1>
-            <h2 className="form-header-sub"></h2>
+            {/* <h2 className="form-header-sub"></h2> */}
 
             <LoginForm />
           </div>

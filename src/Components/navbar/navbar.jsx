@@ -17,7 +17,7 @@ function Navbar() {
     <div>
       <nav className="navbar">
         <div className="logo">Learnly</div>
-        {currentPath == "/login" ? (
+        {currentPath === "/login" ? (
           <Link to="/register" className="nav-link">
             <Button
               variant="contained"
